@@ -1,0 +1,18 @@
+# Dean Scarff's helix config.
+
+[editor]
+auto-completion = false
+auto-info = false
+
+[editor.lsp]
+auto-signature-help = false
+
+[keys.insert]
+"C-a" = "normal_mode"
+
+[keys.select]
+"C-a" = "normal_mode"
+
+[keys.normal]
+# Some vim habits die hard.
+Z = { Z = ":write-quit", Q = ":quit!" }
