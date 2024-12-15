@@ -13,5 +13,7 @@ auto-signature-help = false
 "C-a" = "normal_mode"
 
 [keys.normal]
+# Don't comment things when trying to dismiss popups.
+"C-c" = "no_op"
 # Some vim habits die hard.
 Z = { Z = ":write-quit", Q = ":quit!" }
