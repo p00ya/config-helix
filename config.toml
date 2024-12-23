@@ -2,6 +2,7 @@
 
 [editor]
 auto-completion = false
+auto-pairs = false
 
 [editor.lsp]
 auto-signature-help = false
