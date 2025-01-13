@@ -16,5 +16,11 @@ auto-signature-help = false
 [keys.normal]
 # Don't comment things when trying to dismiss popups.
 "C-c" = "no_op"
+
+# Swap join-selections around since A-J is awkward and I almost always want
+# to delete the space afterwards.
+"J" = "join_selections_space"
+"A-J" = "join_selections"
+
 # Some vim habits die hard.
 Z = { Z = ":write-quit", Q = ":quit!" }
