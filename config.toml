@@ -1,5 +1,7 @@
 # Dean Scarff's helix config.
 
+theme = "base16_default"
+
 [editor]
 auto-completion = false
 auto-pairs = false
