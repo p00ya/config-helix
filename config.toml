@@ -6,6 +6,9 @@ theme = "base16_default"
 auto-completion = false
 auto-pairs = false
 
+[editor.gutters]
+layout = ["line-numbers", "spacer"]
+
 [editor.lsp]
 auto-signature-help = false
 
